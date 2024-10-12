@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./src/img/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Efeito fixo opcional */
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: red;
+}
+h1{
+    text-align: center;
+}
+h1.titulo {
+font-family: 'Georgia', serif;
+font-size: 3rem;
+color: aliceblue;
+
+}
+p {
+max-width: 800px;
+margin: 1rem auto;
+line-height: 1.6;
+color: rgb(235, 240, 244);
+}
+ul {
+list-style: square;
+padding-left: 2rem;
+color: aliceblue;
+margin: 1rem auto;
+max-width: 800px;
+}
+h3{
+    color: aliceblue;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+h2{
+    color: aliceblue;
+    max-width: 800px;
+    margin: 1rem auto;
+
+}
+.video-container{
+    display: flex;
+    justify-content: center;
+    margin-left: -20px;
+    
+    
+}
+video{
+    max-width: 100%;
+    right: auto;
+}
+video{
+    max-width: 100%;
+    transform: translateX(-65%);
+}
+img {
+    height: 250px;
+    margin-left: 24%;
+}
+#militar{
+    margin-left: 2%;
+    
+    
+}
+footer {
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centralizar texto */
+}
+
+.container {
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+.links {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove preenchimento */
+}
+
+.links li {
+    display: inline; /* Mostra os links lado a lado */
+    margin: 0 10px; /* Espaçamento entre os links */
+}
+
+.links a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.links a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+#imagemhubble{
+    transition: width 0.5 ease;
+}
+#imagemJamesWebb1{
+    transition: width 0.5 ease;
+}
+#militar{
+    transition: width 0.5 ease;
+}
+header {
+    background-color: #333; /* Altere para a cor que você usa no rodapé */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento */
+    text-align: center; /* Centraliza o texto */
+}
+
+.navbar h1 {
+    margin: 0; /* Remove margens padrão */
+    font-size: 24px; /* Ajuste o tamanho da fonte se necessário */
+}
+/* Estilos padrão (para desktop) */
+body {
+    font-size: 16px;
+}
+
+/* Para tablets */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1.titulo {
+        font-size: 2.5rem;
+    }
+
+    p {
+        margin: 0.5rem auto;
+    }
+
+    ul {
+        padding-left: 1rem;
+    }
+
+    .video-container {
+        margin-left: 0;
+    }
+
+    img {
+        height: auto; /* Para manter a proporção */
+        width: 100%; /* Para ocupar toda a largura do container */
+    }
+}
+
+/* Para celulares */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    h1.titulo {
+        font-size: 2rem;
+    }
+
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        margin: 0.5rem auto;
+    }
+
+    .links li {
+        display: block; /* Coloca os links em uma coluna */
+        margin: 5px 0; /* Espaço entre os links */
+    }
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que os itens quebrem em várias linhas */
+}
+
+video {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção */
+}
